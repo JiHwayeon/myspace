@@ -180,23 +180,32 @@ about
     background-size:cover; background-position:top;
     background-color: #ffffff33;
     background-image:url(../img/my.png);
-    /* inear-gradient(180deg,#ffffff77,#B4D0E5); */
     width:30%; padding-bottom:30%;
     border-radius: 50%;
 }
 #about .contents_wrap .info_all {
     display:grid; flex-flow: row wrap; 
     grid-template:max-content max-content / 40% calc(60% - 24px);
-    gap:60px 24px;
+    gap:16px 20px;
 }
 #about .contents_wrap .info_all .info {display:flex; flex-flow:column nowrap;  gap:16px;}
+
+
 #about .contents_wrap .info_all .info h2 {
     font-size:1.25rem; color: #1E445B;
     font-family: 'Montserrat'; font-weight: 600;
 }
 #about .contents_wrap .info_all .info ul {display:flex; flex-flow:column nowrap; gap:12px;}
 #about .contents_wrap .info_all .info ul li {color: #577C93; display:flex; gap:12px;}
+#about .contents_wrap .info_all .info.skills ul li {color: #577C93; display:flex; gap:60px;}
 #about .contents_wrap .info_all .info ul li p {line-height:1.3;}
+#about .contents_wrap .info_all .info.skills ul li p span{
+    margin: 0px 0 15px;
+    display: block;
+    font-weight: 600; 
+    font-family: 'Montserrat'; 
+    font-style: normal;
+}
 #about .contents_wrap .info_all .info ul li p.mail {word-break: break-all;}
 #about .contents_wrap .info_all .info ul li p:nth-child(1) {
     font-weight: 600; font-family: 'Montserrat'; font-style: normal;
@@ -444,7 +453,7 @@ graphic
     background-image: url(../detail/img/graphic03.jpg);
 }
 #graphic .slide2 .contents .grid-container .grid-item.item5 {grid-area:item5; background-image: url(../img/banner1.png);}
-#graphic .slide2 .contents .grid-container .grid-item.item6 {grid-area:item6; background-image: url(../img/sticker_design.png);}
+#graphic .slide2 .contents .grid-container .grid-item.item6 {grid-area:item6; background-image: url(../img/graphic06.jpg);}
 #graphic .slide2 .contents .grid-container .grid-item.item7 {grid-area:item7; background-image: url(../img/banner2.jpg);}
 #graphic .slide2 .contents .grid-container .grid-item.item8 {grid-area:item8; background-image: url(../img/package_design.jpg);}
 /*
